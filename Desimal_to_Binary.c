@@ -19,7 +19,7 @@ int main()
   }
    printf("Binary Number:");
 //Reversing array and giving output
-//in binary format
+//in binary system.
    for(int j=i-1;j>=0;j--)
      {
       printf("%d",a[j]);
