@@ -18,8 +18,8 @@ int main()
   {
     time(&rawtime);
     pT=localtime(&rawtime);
-    printf("\t Digital clock:\n");
     system("clear");
+    printf("\t Digital clock:\n");
     printf("\t %02d:%02d:%02d \n",pT->tm_hour,pT->tm_min,pT->tm_sec);
     sleep(1);
   }
