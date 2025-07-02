@@ -2,8 +2,8 @@
 #include <stdlib.h>
 //for linex os
 #include <unistd.h>
-//for windows os use Sleep(1000) instead of 
-//sleep(1)
+//for windows os use Sleep(1000) instead
+//of sleep(1)
 #include <windows.h>
 #include <time.h>
 //for boolien variables
