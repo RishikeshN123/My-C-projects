@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+  int n=0;
+  printf("Total binary charectors:");
+  scanf("%d",&n);
+  char *pT;
+  pT=calloc(n,sizeof(char));
+  printf("Enter binary number:");
+  scanf("%s",pT);
+  int result=0;
+  for(int i=0;i<n;i++)
+  {
+    if(pT[i]=='1')
+    result=result+pow(2,i);
+  }
+  printf("Result: %d \n",result);
+  free(pT);
+  pT=NULL;
+  return 0;
+}
