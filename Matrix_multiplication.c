@@ -1,3 +1,6 @@
+//Following code is not ai written
+//If you think so I can explain every line
+//of code.Can you?
 //matrix multipication of any order with
 //dynamic 2d arrays
 #include <stdio.h>
