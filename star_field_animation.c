@@ -1,3 +1,6 @@
+//The following code is not ai written if 
+//you think so.
+//I can explain every line of code.Can you?
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
